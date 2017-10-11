@@ -1,0 +1,6 @@
+framework module AX_HttpClientTool {
+  umbrella header "AX-HttpClientTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,3 +1,119 @@
-PODFILE CHECKSUM: c1c7798e767e45575c9b9569e6ab36beb22d2a03
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AX-HttpClientTool (0.0.4):
+    - AFNetworking (~> 3.1.0)
+    - Categories-AX (~> 0.1.0)
+  - AXProject (0.0.3):
+    - AFNetworking (~> 3.1.0)
+    - AX-HttpClientTool (~> 0.0.4)
+    - AXProject/Models (= 0.0.3)
+    - AXProject/ViewControllers (= 0.0.3)
+    - AXProject/ViewModels (= 0.0.3)
+    - AXProject/Views (= 0.0.3)
+    - Categories-AX (~> 0.1.0)
+    - CTMediator (~> 12)
+    - Masonry (~> 1.0.2)
+  - AXProject/Models (0.0.3):
+    - AFNetworking (~> 3.1.0)
+    - AX-HttpClientTool (~> 0.0.4)
+    - Categories-AX (~> 0.1.0)
+    - CTMediator (~> 12)
+    - Masonry (~> 1.0.2)
+  - AXProject/ViewControllers (0.0.3):
+    - AFNetworking (~> 3.1.0)
+    - AX-HttpClientTool (~> 0.0.4)
+    - AXProject/ViewModels
+    - AXProject/Views
+    - Categories-AX (~> 0.1.0)
+    - CTMediator (~> 12)
+    - Masonry (~> 1.0.2)
+  - AXProject/ViewModels (0.0.3):
+    - AFNetworking (~> 3.1.0)
+    - AX-HttpClientTool (~> 0.0.4)
+    - AXProject/Models
+    - Categories-AX (~> 0.1.0)
+    - CTMediator (~> 12)
+    - Masonry (~> 1.0.2)
+  - AXProject/Views (0.0.3):
+    - AFNetworking (~> 3.1.0)
+    - AX-HttpClientTool (~> 0.0.4)
+    - AXProject/Models
+    - Categories-AX (~> 0.1.0)
+    - CTMediator (~> 12)
+    - Masonry (~> 1.0.2)
+  - AXUserInfo (0.0.4):
+    - AFNetworking (~> 3.1.0)
+    - AX-HttpClientTool (~> 0.0.4)
+    - AXUserInfo/Models (= 0.0.4)
+    - AXUserInfo/ViewControllers (= 0.0.4)
+    - AXUserInfo/ViewModels (= 0.0.4)
+    - AXUserInfo/Views (= 0.0.4)
+    - Categories-AX (~> 0.1.0)
+  - AXUserInfo/Models (0.0.4):
+    - AFNetworking (~> 3.1.0)
+    - AX-HttpClientTool (~> 0.0.4)
+    - Categories-AX (~> 0.1.0)
+  - AXUserInfo/ViewControllers (0.0.4):
+    - AFNetworking (~> 3.1.0)
+    - AX-HttpClientTool (~> 0.0.4)
+    - AXUserInfo/ViewModels
+    - AXUserInfo/Views
+    - Categories-AX (~> 0.1.0)
+  - AXUserInfo/ViewModels (0.0.4):
+    - AFNetworking (~> 3.1.0)
+    - AX-HttpClientTool (~> 0.0.4)
+    - AXUserInfo/Models
+    - Categories-AX (~> 0.1.0)
+  - AXUserInfo/Views (0.0.4):
+    - AFNetworking (~> 3.1.0)
+    - AX-HttpClientTool (~> 0.0.4)
+    - AXUserInfo/Models
+    - Categories-AX (~> 0.1.0)
+  - Categories-AX (0.1.0)
+  - CTMediator (12)
+  - Masonry (1.0.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
 
-COCOAPODS: 1.2.1
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AX-HttpClientTool (~> 0.0.4)
+  - AXProject (~> 0.0.3)
+  - AXUserInfo (~> 0.0.4)
+  - Categories-AX (~> 0.1.0)
+  - CTMediator (~> 12)
+  - Masonry (~> 1.0.2)
+  - ReactiveCocoa (~> 2.5)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AX-HttpClientTool: 5802c9135e036c2dbb7e58f06ecbfd9c16d0ae38
+  AXProject: 13ad550a45387cf33caf51b7cc990f96b1d9f3d1
+  AXUserInfo: b2e0406e4d68b3a11204f5af1ba46a6e0a9b6b8a
+  Categories-AX: f485854bc1037b2047627c3f929891b878ab611b
+  CTMediator: 83043d198b7ea73214d53375adfdd7f60edd4c1a
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: a4ee7a173459d2bef115e4085c7a39fc584abc37
+
+COCOAPODS: 1.3.1

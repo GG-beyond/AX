@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  AX
+//
+//  Created by anxindeli on 2017/10/11.
+//  Copyright © 2017年 anxindeli. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "GlobalHeader.h"
+
+#endif /* PrefixHeader_pch */

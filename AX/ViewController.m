@@ -7,16 +7,29 @@
 //
 
 #import "ViewController.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
-@interface ViewController ()
-
+@interface ViewController ()<UITextFieldDelegate>
+@property (nonatomic, strong) NSString *name;
 @end
 
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+/*
+    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 100, 30)];
+    [self.view addSubview:textField];
+    textField.placeholder = @"请输入";
+    textField.text = @"姓名";
+    [textField.rac_textSignal subscribeNext:^(id x) {
+        NSLog(@"x = %@",x);
+    }];
+ */
+    
+
+    
+    
+    
 }
 
 

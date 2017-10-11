@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		746938919B22271AC662EDB9 /* libPods-AX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE625A2B4AB8499A791B791 /* libPods-AX.a */; };
+		7E7CB6921F8DF58100B54BA7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB6911F8DF58100B54BA7 /* MainViewController.m */; };
+		7E7CB6951F8DF83800B54BA7 /* CommonNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB6941F8DF83800B54BA7 /* CommonNavViewController.m */; };
 		7E7E56B91F4C2DF8001F88AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E56B81F4C2DF8001F88AB /* main.m */; };
 		7E7E56BC1F4C2DF8001F88AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E56BB1F4C2DF8001F88AB /* AppDelegate.m */; };
 		7E7E56BF1F4C2DF8001F88AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E56BE1F4C2DF8001F88AB /* ViewController.m */; };
 		7E7E56C21F4C2DF8001F88AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E56C01F4C2DF8001F88AB /* Main.storyboard */; };
 		7E7E56C41F4C2DF8001F88AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E56C31F4C2DF8001F88AB /* Assets.xcassets */; };
 		7E7E56C71F4C2DF8001F88AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E56C51F4C2DF8001F88AB /* LaunchScreen.storyboard */; };
+		E08198FCF5186FE4D3CB647D /* libPods-AX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 600406385B6B82978E27830B /* libPods-AX.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BE625A2B4AB8499A791B791 /* libPods-AX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		600406385B6B82978E27830B /* libPods-AX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7CB6901F8DF58100B54BA7 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7E7CB6911F8DF58100B54BA7 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7E7CB6931F8DF83800B54BA7 /* CommonNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonNavViewController.h; sourceTree = "<group>"; };
+		7E7CB6941F8DF83800B54BA7 /* CommonNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonNavViewController.m; sourceTree = "<group>"; };
+		7E7CB6961F8E029200B54BA7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7E7CB6971F8E02B100B54BA7 /* GlobalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalHeader.h; sourceTree = "<group>"; };
 		7E7E56B41F4C2DF8001F88AB /* AX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7E56B81F4C2DF8001F88AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E7E56BA1F4C2DF8001F88AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				746938919B22271AC662EDB9 /* libPods-AX.a in Frameworks */,
+				E08198FCF5186FE4D3CB647D /* libPods-AX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,10 +77,16 @@
 				7E7E56BB1F4C2DF8001F88AB /* AppDelegate.m */,
 				7E7E56BD1F4C2DF8001F88AB /* ViewController.h */,
 				7E7E56BE1F4C2DF8001F88AB /* ViewController.m */,
+				7E7CB6901F8DF58100B54BA7 /* MainViewController.h */,
+				7E7CB6911F8DF58100B54BA7 /* MainViewController.m */,
+				7E7CB6931F8DF83800B54BA7 /* CommonNavViewController.h */,
+				7E7CB6941F8DF83800B54BA7 /* CommonNavViewController.m */,
 				7E7E56C01F4C2DF8001F88AB /* Main.storyboard */,
 				7E7E56C31F4C2DF8001F88AB /* Assets.xcassets */,
 				7E7E56C51F4C2DF8001F88AB /* LaunchScreen.storyboard */,
 				7E7E56C81F4C2DF8001F88AB /* Info.plist */,
+				7E7CB6961F8E029200B54BA7 /* PrefixHeader.pch */,
+				7E7CB6971F8E02B100B54BA7 /* GlobalHeader.h */,
 				7E7E56B71F4C2DF8001F88AB /* Supporting Files */,
 			);
 			path = AX;
@@ -89,7 +103,7 @@
 		8612580B4C3FA3A46B4A14A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1BE625A2B4AB8499A791B791 /* libPods-AX.a */,
+				600406385B6B82978E27830B /* libPods-AX.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,13 +194,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AX-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B7AABC9DD4B2A7EBB11F0CA0 /* [CP] Embed Pods Frameworks */ = {
@@ -195,9 +212,24 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AX/Pods-AX-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AX-HttpClientTool/AX_HttpClientTool.framework",
+				"${BUILT_PRODUCTS_DIR}/AXProject/AXProject.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/Categories-AX/Categories_AX.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AX_HttpClientTool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXProject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Categories_AX.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -229,6 +261,8 @@
 				7E7E56BF1F4C2DF8001F88AB /* ViewController.m in Sources */,
 				7E7E56BC1F4C2DF8001F88AB /* AppDelegate.m in Sources */,
 				7E7E56B91F4C2DF8001F88AB /* main.m in Sources */,
+				7E7CB6921F8DF58100B54BA7 /* MainViewController.m in Sources */,
+				7E7CB6951F8DF83800B54BA7 /* CommonNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -350,7 +384,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2WF494FH62;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AX/PrefixHeader.pch";
 				INFOPLIST_FILE = AX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anxindeli.AX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -364,6 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2WF494FH62;
 				INFOPLIST_FILE = AX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anxindeli.AX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -389,6 +426,7 @@
 				7E7E56CD1F4C2DF8001F88AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

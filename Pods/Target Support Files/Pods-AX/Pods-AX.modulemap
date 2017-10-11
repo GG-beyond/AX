@@ -1,0 +1,6 @@
+framework module Pods_AX {
+  umbrella header "Pods-AX-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AXProject {
+  umbrella header "AXProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
